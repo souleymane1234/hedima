@@ -35,7 +35,6 @@ export default function Hero() {
           loop
           playsInline
           preload="auto"
-          poster="/images/hero-video-poster.webp"
         >
           <source src="/videos/hero-afrique.mp4" type="video/mp4" />
         </video>

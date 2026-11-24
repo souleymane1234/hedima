@@ -128,8 +128,7 @@
 @media (prefers-reduced-motion: reduce) {
   .hero__video { display: none; }
   .hero__media {
-    background:
-      url('/images/hero-video-poster.webp') center / cover no-repeat;
+    background: var(--color-hedima);
   }
 }
 
