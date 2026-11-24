@@ -1,0 +1,59 @@
+:root {
+  /* Charte officielle */
+  --color-hedima: #0C466E;
+  --color-gold: #D9A441;
+  --color-sand: #E9D9BE;
+  --color-cream: #F2EADD;
+  --color-pay: #648CA5;
+  --color-text: #1A1A1A;
+
+  /* Dérivés (même teinte, luminosité ajustée) */
+  --color-hedima-dark: #093552;
+  --color-gold-dark: #B8862A;
+  --color-white: #FFFFFF;
+  --color-text-soft: #4A4A4A;
+  --color-line: rgba(26, 26, 26, 0.12);
+  --color-line-light: rgba(255, 255, 255, 0.22);
+
+  /* Typographie */
+  --font-main: 'Montserrat', sans-serif;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-h1: clamp(2.5rem, 1.6rem + 3.8vw, 4rem);      /* 40 → 64 px */
+  --fs-h2: clamp(1.875rem, 1.4rem + 1.9vw, 2.75rem); /* 30 → 44 px */
+  --fs-h3: clamp(1.5rem, 1.3rem + 0.7vw, 1.75rem);   /* 24 → 28 px */
+  --fs-h4: clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);/* 18 → 20 px */
+  --fs-body: clamp(0.9375rem, 0.9rem + 0.15vw, 1.0625rem); /* 15 → 17 px */
+  --fs-small: 0.8125rem;
+
+  /* Espacements */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --section-y: clamp(4rem, 3rem + 5vw, 8rem);
+
+  /* Mise en page */
+  --container: 1240px;
+  --gutter: clamp(1.25rem, 0.8rem + 2vw, 2.5rem);
+  --header-h: 88px;
+
+  /* Formes et ombres */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 10px 30px -12px rgba(12, 70, 110, 0.25);
+  --shadow-lift: 0 22px 44px -18px rgba(12, 70, 110, 0.38);
+
+  /* Mouvement */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur: 240ms;
+}
